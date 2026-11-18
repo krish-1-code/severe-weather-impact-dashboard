@@ -1,0 +1,14 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.pq text eol=lf
+*.dax text eol=lf
+*.bim text eol=lf
+*.pbip text eol=lf
+*.pbir text eol=lf
+*.pbism text eol=lf
+*.pbix binary
+*.png binary
+*.gz binary

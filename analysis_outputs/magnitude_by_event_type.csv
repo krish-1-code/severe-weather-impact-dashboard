@@ -1,0 +1,63 @@
+EVENT_TYPE,MAGNITUDE_TYPE,known_records,minimum,median,maximum
+Astronomical Low Tide,,0,,,
+Avalanche,,0,,,
+Blizzard,,0,,,
+Coastal Flood,,0,,,
+Cold/Wind Chill,,0,,,
+Debris Flow,,0,,,
+Dense Fog,,0,,,
+Drought,,0,,,
+Dust Devil,,0,,,
+Dust Storm,,0,,,
+Excessive Heat,,0,,,
+Extreme Cold/Wind Chill,,0,,,
+Flash Flood,,0,,,
+Flood,,0,,,
+Freezing Fog,,0,,,
+Frost/Freeze,,0,,,
+Funnel Cloud,,0,,,
+Hail,,8938,0.250000,1.000000,7.020000
+Heat,,0,,,
+Heavy Rain,,0,,,
+Heavy Snow,,0,,,
+High Surf,,0,,,
+High Wind,EG,686,25.000000,50.000000,104.000000
+High Wind,MG,3191,30.000000,55.000000,136.000000
+High Wind,MS,116,35.000000,37.000000,52.000000
+Hurricane,,0,,,
+Hurricane (Typhoon),,0,,,
+Ice Storm,,0,,,
+Lake-Effect Snow,,0,,,
+Lakeshore Flood,,0,,,
+Lightning,,0,,,
+Marine Dense Fog,,0,,,
+Marine Hail,,22,0.750000,1.000000,1.500000
+Marine High Wind,EG,7,49.000000,51.000000,56.000000
+Marine High Wind,MG,56,48.000000,51.000000,63.000000
+Marine High Wind,MS,1,49.000000,49.000000,49.000000
+Marine Hurricane/Typhoon,,0,,,
+Marine Strong Wind,ES,2,15.000000,20.000000,25.000000
+Marine Strong Wind,MG,1,39.000000,39.000000,39.000000
+Marine Thunderstorm Wind,EG,183,34.000000,34.000000,70.000000
+Marine Thunderstorm Wind,MG,1992,34.000000,38.000000,89.000000
+Marine Tropical Depression,,0,,,
+Marine Tropical Storm,,0,,,
+Rip Current,,0,,,
+Seiche,,0,,,
+Sleet,,0,,,
+Sneakerwave,,0,,,
+Storm Surge/Tide,,0,,,
+Strong Wind,EG,777,17.000000,40.000000,49.000000
+Strong Wind,ES,1,31.000000,31.000000,31.000000
+Strong Wind,MG,517,23.000000,41.000000,49.000000
+Strong Wind,MS,15,26.000000,29.000000,34.000000
+Thunderstorm Wind,EG,16034,1.000000,52.000000,104.000000
+Thunderstorm Wind,ES,1,52.000000,52.000000,52.000000
+Thunderstorm Wind,MG,3883,20.000000,54.000000,95.000000
+Tornado,,0,,,
+Tropical Depression,,0,,,
+Tropical Storm,,0,,,
+Waterspout,,0,,,
+Wildfire,,0,,,
+Winter Storm,,0,,,
+Winter Weather,,0,,,

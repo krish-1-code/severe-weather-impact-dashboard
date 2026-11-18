@@ -1,0 +1,4 @@
+CZ_TYPE,MARINE_CONTEXT,event_records,distinct_episodes,injuries_direct,injuries_indirect,deaths_direct,deaths_indirect,injuries_total,deaths_total,property_reported_usd_sum,property_known_records,property_unknown_records,property_coverage_pct,crops_reported_usd_sum,crops_known_records,crops_unknown_records,crops_coverage_pct,both_damage_components_known_records,complete_case_damage_usd_sum,available_damage_components_usd_sum
+C,False,39598,5074,874,36,257,32,910,289,6189292750.000000,32322,7276,81.625335,289431210.000000,31839,7759,80.405576,30670,6267555960.000000,6478723960.000000
+Z,False,27357,4344,543,382,425,273,925,698,9221121380.000000,20256,7101,74.043206,1965675200.000000,20281,7076,74.134591,19848,10876175920.000000,11186796580.000000
+Z,True,2538,759,3,0,5,1,3,6,11500.000000,1824,714,71.867612,0.000000,1913,625,75.374310,1824,11500.000000,11500.000000

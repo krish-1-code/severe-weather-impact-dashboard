@@ -1,0 +1,84 @@
+{
+  "run_utc": "2026-11-04T07:27:26.802067+00:00",
+  "input_name": "noaa_storm_events_2024.csv",
+  "input_bytes": 69361691,
+  "input_sha256": "6cb952bef90c9735b32b8cdf813010561a0bc0f1c926c42e11277a57efecf6ef",
+  "source_vintage_from_supplied_filename": "2025-08-18",
+  "analysis_year": 2024,
+  "provenance_note": "Download URL supplied by user; mirror not independently matched to a NOAA original.",
+  "sources": {
+    "noaa_database": "https://www.ncei.noaa.gov/access/storm-events-database/",
+    "bulk_format": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/Storm-Data-Bulk-csv-Format.pdf",
+    "preparation_instructions": "https://www.weather.gov/media/directives/010_pdfs/pd01016005curr.pdf",
+    "noaa_faq": "https://www.ncdc.noaa.gov/stormevents/faq.jsp",
+    "supplied_download": "https://raw.githubusercontent.com/oedp/noaa_storm_events/main/StormEvents_details-ftp_v1.0_d2024_c20250818.csv.gz"
+  },
+  "python_version": "3.13.7",
+  "pandas_version": "3.0.0",
+  "matplotlib_version": "3.10.8",
+  "input_records": 69493,
+  "input_columns": 51,
+  "output_records": 69493,
+  "rows_removed": 0,
+  "exact_duplicate_excess_rows": 0,
+  "duplicate_event_id_rows": 0,
+  "distinct_episodes": 9861,
+  "distinct_event_types": 51,
+  "distinct_state_region_labels": 68,
+  "unexpected_columns": [],
+  "timezone_label_counts": {
+    "CST-6": 34061,
+    "EST-5": 22174,
+    "MST-7": 7945,
+    "PST-8": 3913,
+    "AST-4": 782,
+    "AKST-9": 321,
+    "HST-10": 180,
+    "GST10": 58,
+    "SST-11": 23,
+    "PDT-7": 18,
+    "EDT-4": 16,
+    "CDT-5": 2
+  },
+  "local_begin_min": "2024-01-01 00:00:00",
+  "local_begin_max": "2024-12-31 23:30:00",
+  "issue_counts": {
+    "marine_context_without_M_designator": 2538,
+    "daylight_timezone_label_for_review": 36
+  },
+  "damage_status_counts": {
+    "DAMAGE_PROPERTY": {
+      "reported_zero": 40228,
+      "missing": 15091,
+      "reported_positive": 14174
+    },
+    "DAMAGE_CROPS": {
+      "reported_zero": 52881,
+      "missing": 15460,
+      "reported_positive": 1152
+    }
+  },
+  "totals": {
+    "ALL_RECORDS": "all",
+    "event_records": 69493,
+    "distinct_episodes": 9861,
+    "injuries_direct": 1420,
+    "injuries_indirect": 418,
+    "deaths_direct": 687,
+    "deaths_indirect": 306,
+    "injuries_total": 1838,
+    "deaths_total": 993,
+    "property_reported_usd_sum": 15410425630.0,
+    "property_known_records": 54402,
+    "property_unknown_records": 15091,
+    "property_coverage_pct": 78.28414372670629,
+    "crops_reported_usd_sum": 2255106410.0,
+    "crops_known_records": 54033,
+    "crops_unknown_records": 15460,
+    "crops_coverage_pct": 77.75315499402818,
+    "both_damage_components_known_records": 52342,
+    "complete_case_damage_usd_sum": 17143743380.0,
+    "available_damage_components_usd_sum": 17665532040.0
+  },
+  "verification": "passed: record and damage reconciliation, missing/zero checks, unchanged input hash"
+}

@@ -1,0 +1,33 @@
+Event Records = COUNTROWS('Events')
+
+Episodes = DISTINCTCOUNT('Events'[Episode ID])
+
+Reported Property USD = SUM('Events'[Property USD])
+
+Reported Crop USD = SUM('Events'[Crop USD])
+
+Available Reported USD = VAR P = [Reported Property USD] VAR C = [Reported Crop USD] RETURN IF(ISBLANK(P) && ISBLANK(C), BLANK(), COALESCE(P,0) + COALESCE(C,0))
+
+Complete Case Reported USD = SUM('Events'[Complete Damage USD])
+
+Property Known Records = COUNT('Events'[Property USD])
+
+Crop Known Records = COUNT('Events'[Crop USD])
+
+Property Coverage = DIVIDE([Property Known Records], [Event Records])
+
+Crop Coverage = DIVIDE([Crop Known Records], [Event Records])
+
+Property Unknown Records = [Event Records] - [Property Known Records]
+
+Crop Unknown Records = [Event Records] - [Crop Known Records]
+
+Reported Deaths = SUM('Events'[Deaths])
+
+Reported Injuries = SUM('Events'[Injuries])
+
+Coordinate Coverage = DIVIDE(SUM('Events'[Has Begin Coordinates]), [Event Records])
+
+Top Event Damage USD = IF(RANKX(ALLSELECTED('Events'[Event Type]), [Available Reported USD], , DESC, DENSE) <= 10, [Available Reported USD])
+
+Top Region Records = IF(RANKX(ALLSELECTED('Events'[State Region]), [Event Records], , DESC, DENSE) <= 10, [Event Records])
